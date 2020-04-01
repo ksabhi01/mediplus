@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Navigation Top*/
+
+#navTop{
+    display: flex;
+    justify-content: space-around;
+    height: 16vh;
+    background: white;
+}
+
+#logo{
+    width: 12rem;
+}
+
+.navBarContent{
+    margin-top: 30px;
+}
+
+.searcBoxTop{
+    width: 35vw;
+    height: 8vh;
+    margin-top: 25px;
+    padding: 14px;
+}
+
+.topBarbtn{
+    width: 3vw;
+    height: 8vh;
+    border: none;
+    background: #13AFC5;
+    color: white;
+
+}
+
+#icon-top{
+    margin-top: 28px;
+    padding-left: 10px;
+}
+
+#icon-top> i{
+    padding-left: 20px;
+}
+
+.shop{
+    color: #13AFC5;
+    font-size: 1.4rem;
+}
+
+.cat{
+    color: #AAD32D;
+    font-size: 1.4rem;
+}
+
+.des{
+    background: #13AFC5;
+    color: white;
+    padding: 17px;
+    border-radius: 50%;
+    margin-left: 16px;
+}
+
+/*Card section*/
+
+.imp-cards{
+    width: 18rem;
+    height: 40vh;
+    background: transparent;
+    border: none;
+    padding-left:10px; 
+}
+
+.Emergency{
+    font-size: 3.5rem;
+    border-radius: 50%;
+    padding: 30px;
+    background:#A8D62D;
+}
+
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./media/lvkwE1.jpg");
+    height: 60vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.title1{
+    color: red;
+}
+
+.card-text{
+    color: white;
+}
+
+/*Deals of the week*/
+
+#deals{
+    height: 70vh;
+    background: #E0E0E0;
+    position: relative;
+}
+
+.sling{
+    width: 248px;
+}
+
+.sling> img{
+    width: 194px;
+    height: 194px;
+}
+
+.carousel-item> div{
+    display: inline-block;
+}
+
+#imageSliderr{
+    width: 80vw;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+/*Buy medicines*/
+
+#cardNav{
+    height: 9vh;
+    display: flex;
+    background: #13AFC5;
+    align-items: center;
+}
+
+.pop{
+    background: white;
+    padding: 17px;
+    color: #13AFC5;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.arrival{
+    padding: 17px;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.bestseller{
+    padding: 17px;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+
+.pop:hover{
+    background: #13AFC5;
+    color: white;
+}
+
+.arrival:hover, .bestseller:hover{
+    background: white;
+    color:#13AFC5;
+}
+
+.buyimg{
+    width: 30vh;
+}
+
+#cardContainer{
+    display: flex;
+    justify-content: center;
+    padding: 0 2%;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 1%;
+    margin: 4% 4% 0 4%;
+}
+
+.Addcart{
+	color: white;
+	background: #13AFC5;
+	padding: 12px;
+	border: none;
+	font-weight: bold;
+	margin-top: 6px;
+}
+
+#buyNow{
+	background: #A8D62D;
+	color: white;
+	padding: 12px;
+	border: none;
+	font-weight: bold;
+	margin-top: 6px;
+}
+
+.newPrice{
+    color: red;
+    font-size: 1.4rem;
+    margin-left: 15%;
+}
+
+.txtmed{
+    color: black;
+    font-size: 1.1rem;
+}
+
+
+/*tESTIOMONIALS*/
+
+.tesimonials {
+    padding:1em 0 3em 0;
+    background: #222222;
+    text-align: center;
+    background: url(./media/bg.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    height: 70vh;
+}
+
+.tesimonials> h1{
+    padding: 0.5em 1em;
+}
+
+.review{
+    width: 80vw;
+    height: 50vh;
+    background: #E0E0E0;
+}
+
+
